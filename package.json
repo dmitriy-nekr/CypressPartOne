@@ -1,0 +1,21 @@
+{
+  "name": "lesson-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "noteChromeHeadless": "cypress run --browser chrome",
+    "noteChromeHeaded":"cypress run --headed --browser chrome",
+    "noteEdgeHeadless":"cypress run --browser edge",
+    "noteEdgeHeaded":"cypress run --headed --browser edge",
+    "mobileChromeHeadless":"cypress run --config-file cypress_2.config.js --browser chrome",
+    "mobileChromeHeaded":"cypress run --config-file cypress_2.config.js --headed --browser chrome",
+    "mobileEdgeHeadless":"cypress run --config-file cypress_2.config.js --browser edge",
+    "mobileEdgeHeaded":"cypress run --config-file cypress_2.config.js --headed --browser edge"
+    },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.12.0"
+  }
+}
